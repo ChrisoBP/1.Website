@@ -1,0 +1,106 @@
+
+body{
+    
+    background-color: #202021; 
+  color: rgb(202, 210, 233);
+}
+
+@font-face {
+  font-family: 'FontStyle';
+  src: url('Dunkin.otf') format('opentype'),
+  
+}
+@font-face {
+  font-family: 'FontStyle2', sans-serif;
+  src: url('Dunkin.otf') format('opentype'),
+  
+}
+body {
+  font-family: 'FontStyle'; 
+
+}
+p.text
+{
+  font-family: 'FontStyle2', sans-serif;
+  color: rgb(202, 210, 233);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+p {
+  font-family: 'FontStyle2', sans-serif;
+  color: rgb(202, 210, 233);
+  font-size: 18px; 
+  word-wrap: break-word;
+  max-width: 640px;
+}
+
+.collapsible {
+  font-family: 'FontStyle';
+    background-color: #303033;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: rgb(202, 210, 233);
+  }
+
+.content {
+  font-family: 'FontStyle';
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #303033;
+    color: rgb(202, 210, 233);
+  }
+
+table {
+  font-family: 'FontStyle';
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    color: rgb(202, 210, 233);
+  }
+
+th, td {
+    border: 1px solid #8c8c8c;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #303033;
+}
+
+.image-container {
+  max-width: 100%; /* Ensures image does not exceed the width of its container */
+  text-align: center; /* Centers the image horizontally */
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 80%;
+  display: block;
+  margin: 10em auto;
+  margin-top: 0em;
+  justify-content: center;
+  text-align: center;
+}
+
+.überschrift{
+  font-size:4em;
+}
+
+
+
+
+
+

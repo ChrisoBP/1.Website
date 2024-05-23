@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Background Color</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Dynamics F-16 Fighting Flacon</title>
+
+</head>
+<body>
+    <div class="container">
+
+    <h1 class="überschrift">General Dynamics F-16 Fighting Falcon</h1>
+    <div class="image-container">
+    <img src="imago0256822521hjpg.webp">
+    </div>
+    
+
+<br>
+<br>
+
+    <button class="collapsible">History</button>
+    <div class="content">
+        <p>The General Dynamics F-16 Fighting Falcon is an American single-engine supersonic multirole fighter aircraft originally developed by General Dynamics for the United States Air Force (USAF). Designed as an air superiority day fighter, it evolved into a successful all-weather multirole aircraft with over 4,600 built since 1976. Although no longer purchased by the U.S. Air Force, improved versions are being built for export. In 1993, General Dynamics sold its aircraft manufacturing business to Lockheed Martin.
+            Because of War Experience in Vietnam the US Airforce realised it is  in dire need of new Air Superiority Fighters. It was the first aircraft that was engineered with mathimatics used to calculate the optimal shape for maximum Energy Retention.
+            In addition to active duty in the U.S. Air Force it is also in use by the air forces of 25 other nations. It is the world's most common fixed-wing aircraft in military service, with 2145 F-16s operational.</p>
+    </div>
+    <br>
+    <button class="collapsible">Noteworthy Features</button>
+    <div class="content">
+        <p>
+            Some noteworthy Features of the F-16 include: a frameless bubble canopy for enhanced cockpit visibility, a side-mounted control stick to ease control while maneuvering, the first use of a fly-by-wire flight control system that helps to make it an agile aircraft and Datalink to share information with other aircraft in the squadron, guide other missiles to theyre target, or have its missiles guided to the target by aircraft with better radar. 
+        </p>
+    </div>
+    <br>
+    <button class="collapsible">Armament (on american Aircraft)</button>
+    <div class="content">
+        <p>
+        	Air To Air:
+        </p>
+        <p>
+            Aim 9 Sidewinder heat seeking short range Air to Air Missiles (AAM) (L, M and X Varients)
+        </p>
+        <p>
+            Aim 7 Sparrow semi active radar homing long range Air to Air Missiles (AAM) (F and M Varients)
+        </p>
+        <P>
+            Aim 120 AMRAAM active radar homing medium range Air to Air Missiles (AAM) (a,b and c Varients)
+        </P>
+        <P>
+            ---------------------------
+        </P>
+        <p>
+        	Air To Ground:
+        </p>
+        <p>
+            AGM 65 Maverik Air to Ground Missiles (AGM)
+        </p>
+        <p>
+            AGM 114 Hellfire Air To Ground Missiles (AGM)
+        </p>
+        <P>
+            Various Guided and Unguided Bombs (GBU)
+        </P>
+        <P>
+            Internaly carried 20mm M61 Vulcan Rotary Cannon
+        </P>
+        <P>
+            ---------------------------
+        </P>
+        <P>
+            Survivability:
+        </P>
+        <P>
+            Flares / Chaff to dodge enemy Missiles
+        </P>
+        <P>
+            Electronic Countermeasures (ECM) to confuse enemy radar
+        </P>
+        <P>
+            External Fuel Tanks for longer missions
+        </P>
+        <P>
+            ---------------------------
+        </P>
+        <P>
+            It can carry these Weapons on 9 external Hardpoints (2 on the wing tips, 6 under the wings, 1 under the fusulage)
+        </P>
+        
+        
+    </div>
+    <br>
+    <br>
+
+    <table>
+        <tr>
+            <th>Facts</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Size (length)</td>
+            <td>15m</td>
+        </tr>
+        <tr>
+            <td>Wingspan</td>
+            <td>9.96m</td>
+        </tr>
+        <tr>
+            <td>Maximum Speed at sea level</td>
+            <td>1470 km/h (Mach 1.2)</td>
+        </tr>
+        <tr>
+            <td>Thrust to Weight Ratio</td>
+            <td>between 1.096 and 1.24 depending on Weaponary and fuel amount</td>
+        </tr>
+        <tr>
+            <td>Maximum Service Ceiling</td>
+            <td>15240m</td>
+        </tr>
+
+
+
+    </table>
+    <br>
+    <br>
+
+    <div class="image-container">
+        <img src="F-16-Start-169FullWidth-63845f98-2075781.avif">
+        </div>
+    
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+    </div>
+</body>
+</html>
